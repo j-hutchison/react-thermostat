@@ -1,0 +1,19 @@
+.btn {
+	border-radius: 50%;
+	background-color: darkgrey;
+	width: 7rem;
+	height: 7rem;
+
+	color: inherit;
+	display: block;
+
+	border: 3px solid #fff;
+
+	font-size: 3rem;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: rgb(196, 194, 194);
+	cursor: pointer;
+}

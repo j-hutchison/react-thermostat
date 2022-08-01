@@ -1,0 +1,36 @@
+.temp-display {
+	background-color: rgb(76, 76, 247);
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: space-evenly;
+
+	padding: 7rem;
+	border: 5px solid white;
+
+	margin-bottom: 2rem;
+
+	transition: all 0.3s;
+}
+.temp-display-reading {
+	font-size: 4rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	display: block;
+}
+
+.blue {
+	background-color: rgb(110, 110, 248);
+}
+
+.green {
+	background-color: rgb(121, 206, 121);
+}
+
+.amber {
+	background-color: rgb(243, 191, 94);
+}
+
+.red {
+	background-color: rgb(255, 101, 101);
+}
